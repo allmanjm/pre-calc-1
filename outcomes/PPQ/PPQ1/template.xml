@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+For each of the following, determine the values of <m>x</m> for which the given expression is:
+        </p>
+        <list>
+            <item><p> zero </p></item>
+            <item><p> undefined (aka <m>\pm \infty</m>) </p></item>
+        </list>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+            <m mode="display">
+ {{factor1}} \left( {{factor2}} \right)^{ {{powers[1]}} } 
+ \left( {{factor3}} \right) \left( {{factor4}} \right)
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item><p>zero when <m>x</m> is:
+                <m>{{zero1}}</m> or 
+                <m>{{zero2}}</m> or 
+                <m>{{zero3}}</m> or 
+                <m>{{zero4}}</m> or 
+                <m>{{zero5}}</m> 
+                </p></item>
+                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is: N/A</p></item>
+            </list>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+            <m mode="display">
+ \frac{ x^{ {{r}} } ({{f1}})({{f2}}) } { ({{f3}})({{f4}})({{f5}}) }
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item><p>zero when <m>x</m> is {{zeros_answer}}</p></item>
+                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is {{und_answer}}</p></item>
+            </list>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+            <m mode="display">
+\frac{ x^{ {{rr}} } ({{num_fact}})({{extra}}) } { ({{denom_fact}}) }
+            </m>
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item><p>zero when <m>x</m> is {{zz_answer}}</p></item>
+                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is {{uu_answer}}</p></item>
+            </list>
+        </outtro>
+    </knowl>
+
+    
+   
+</knowl>

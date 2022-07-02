@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>Precalculus Skills 1</title>
+    <slug>PreCalcSkills1</slug>
+    <url>https://checkit.clontz.org</url>
+    <outcomes>
+        <outcome>
+            <title>Top Level operations 1</title>
+            <slug>PTL1</slug>
+            <path>outcomes/PTL/PTL1</path>
+            <description>
+I can recognize top level operations in an algebraic expression: sum, difference, product, quotient, or composition.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponent Rules 1</title>
+            <slug>PER1</slug>
+            <path>outcomes/PER/PER1</path>
+            <description>
+I can manipulate expressions with exponents and common bases.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponent Rules 2</title>
+            <slug>PER2</slug>
+            <path>outcomes/PER/PER2</path>
+            <description>
+I can do arithmetic with rational exponents.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Factoring 1</title>
+            <slug>PFa1</slug>
+            <path>outcomes/PFa/PFa1</path>
+            <description>
+I can factor quadratic expressions over the rational numbers. 
+Factoring means "turning a sum and/or difference into a product".
+            </description>
+        </outcome>
+        <outcome>
+            <title>Factoring 2</title>
+            <slug>PFa2</slug>
+            <path>outcomes/PFa/PFa2</path>
+            <description>
+I can factor out common terms from a sum to obtain a product of irreducible factors. 
+Factoring means "turning a sum and/or difference into a product".
+            </description>
+        </outcome>
+        <outcome>
+            <title>Expanding 1</title>
+            <slug>PEx1</slug>
+            <path>outcomes/PEx/PEx1</path>
+            <description>
+I can use FOIL or Pascal's Triangle to expand binomials raised to whole number powers.
+Expanding means "turning a product/quotient into a sum/difference".
+            </description>
+        </outcome>
+        <outcome>
+            <title>Expanding 2</title>
+            <slug>PEx2</slug>
+            <path>outcomes/PEx/PEx2</path>
+            <description>
+I can expand products with factors beyond binomials; e.g., 
+products in which at least one of the factors is a sum of three or more terms.
+Expanding means "turning a product/quotient into a sum/difference".
+            </description>
+        </outcome>
+        <outcome>
+            <title>Cancellation rules 1</title>
+            <slug>PCa1</slug>
+            <path>outcomes/PCa/PCa1</path>
+            <description>
+I can correctly identify and perform additive and/or multiplicative cancellations 
+(additive means the canceled terms are replaced with “plus 0”; 
+multiplicative means the canceled factors are replaced with “times 1”).
+            </description>
+        </outcome>
+        <outcome>
+            <title>Analyzing Products/Quotients 1</title>
+            <slug>PPQ1</slug>
+            <path>outcomes/PPQ/PPQ1</path>
+            <description>
+I can determine when a product/quotient is zero and/or undefined.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Analyzing Products/Quotients 2</title>
+            <slug>PPQ2</slug>
+            <path>outcomes/PPQ/PPQ2</path>
+            <description>
+I can use a sign chart to determine when a product/quotient is positive and/or negative.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic Library of functions, equations, graphs/sketches 1</title>
+            <slug>PBL1</slug>
+            <path>outcomes/PBL/PBL1</path>
+            <description>
+I can write an equation and sketch a graph for 
+a line determined either by 
+(1) one point and a slope, or 
+(2) two points.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic Library of functions, equations, graphs/sketches 2</title>
+            <slug>PBL2</slug>
+            <path>outcomes/PBL/PBL2</path>
+            <description>
+I can write an equation for a circle with a given center and radius. 
+Conversely, I can identify the center and radius from an
+equation which defines a circle.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Synthesis of skills and techniques 1</title>
+            <slug>PSy1</slug>
+            <path>outcomes/PSy/PSy1</path>
+            <description>
+I can manipulate expressions and solve equations 
+by successively performing multiple algebraic steps.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Synthesis of skills and techniques 2</title>
+            <slug>PSy2</slug>
+            <path>outcomes/PSy/PSy2</path>
+            <description>
+I can determine the domain of an algebraic function.
+            </description>
+        </outcome>
+    </outcomes>
+</bank>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Consider the function <m>f(x)</m> below.
+            <m mode="display">
+ f(x) = \frac{ x^{ {{p}} } \left( {{x-a}} \right)^{ {{q}} } \left( {{x-b}} \right)^{ {{r}} } }{ \left( {{c2}} - x^2 \right) }
+            </m>
+Construct a <em>sign chart</em> for <m>f(x)</m> 
+and use it to solve the inequalities:
+        </p>
+        <list>
+            <item><p><m> {{ineq_more}} </m></p></item>
+            <item><p><m> {{ineq_less}} </m></p></item>
+        </list>
+        <p>
+Present the answer to each inequality in <em>interval notation</em>.
+        </p>
+    </content>
+    <outtro>
+        <p>
+        Sign chart:
+            <image
+                source="assets/PPQ2/generated/{{__seed__}}/Show1.png"
+                description="the sign chart for f(x)"
+            />
+        </p>
+        <p>
+        Note: there is an unlabeled tickmark at <m>x=0</m> 
+        on the number line above.
+        </p>
+        <list>
+            <item><p>Intervals where <m> {{ineq_more}} </m> appear with "plus" signs above them.</p></item>
+            <item><p>Intervals where <m> {{ineq_less}} </m> appear with "minus" signs above them.</p></item>
+        </list>
+    </outtro>
+</knowl>

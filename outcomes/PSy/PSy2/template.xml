@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Find the largest possible domain in <m>\mathbb{R}</m> 
+for the following function.
+        </p>
+        <p>
+<m mode="display"> f(x) = {{l_LaTeX}} {{inside}} {{r_LaTeX}} </m>
+        </p>
+        <p>Give your answer in two ways</p>
+                <list>
+                        <item><p>as a union of intervals (aka <em>interval notation</em>), and </p></item>
+                        <item><p>as a picture of a number line with highlighted intervals.</p></item>
+                </list>
+    </content>
+    <outtro>
+        <list>
+                <item><p>interval notation: <m> {{int_not}} </m></p></item>
+                <item><p>picture on the <m>x-</m>axis: <image
+                            source="assets/PSy2/generated/{{__seed__}}/Show1.png"
+                            description="the interval notation as a picture"
+                        /> </p>
+                </item>
+        </list>
+    </outtro>
+</knowl>

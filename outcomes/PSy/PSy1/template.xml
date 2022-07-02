@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Solve for the variable <m>C</m> in the following expression. 
+Your answer will depend on the variables <m>A</m> and <m>B</m>.
+        <m mode="display"> 
+ {{q}} B^{ {{q1}} } C \left( {{lhs_fact}} \right) + {{p}} A^{ {{p1}} } B^{ {{q}} } + {{lhs2}} = {{rhs}}
+        </m>
+        </p>
+    </content>
+    <outtro>
+        <p>
+<m mode="display"> {{answer}} </m>
+Warning: your final answer may differ slightly from 
+the one above and yet still be correct. Make sure you 
+are able to verify how and why your answer is the same 
+as the given one. For instance, the given auto-generated 
+answers always have positive powers on <m>A</m> and <m>B</m>.
+        </p>
+    </outtro>
+</knowl>

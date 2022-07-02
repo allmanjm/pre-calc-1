@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>
+Factor the following quadratic polynomial into the form 
+<m>( x+a )( x+b )</m> 
+for some integers <m>a</m> and <m>b</m>.
+<m mode="display"> 
+{{poly1}}
+</m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display">\left( {{factor11}} \right)\left( {{factor12}} \right)</m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+Factor the following quadratic polynomial into the form 
+<m>(ax+b)(cx+d)</m> 
+for some integers <m>a,b,c,</m> and <m>d</m>.
+<m mode="display"> 
+{{poly2}}
+</m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display">\left( {{factor21}} \right)\left( {{factor22}} \right)</m>
+Warning: Your answer might be correct but differ slightly 
+from the displayed answer. If this is the case, make sure 
+that you can explain why your answer is equivalent to the displayed one.
+            </p>
+        </outtro>
+    </knowl>
+   
+</knowl>

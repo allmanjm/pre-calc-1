@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+Expand each of the following products.
+        </p>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+<m  mode="display"> \left( {{factor1}} \right) \left( {{factor2}} \right)</m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display"> {{expandA}} </m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+<m mode="display"> \left( {{factor3}} \right) \left( {{factor4}} \right) </m> 
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display"> {{expandB}} </m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+<m mode="display"> \left( {{factor5}} \right) \left( {{factor6}} \right) </m> 
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display"> {{expandC}} </m>
+            </p>
+        </outtro>
+    </knowl>
+   
+</knowl>

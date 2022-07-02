@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+In each of the following, the given information 
+determines a line in the plane.
+        </p>
+        <list>
+            <item><p>Write an equation of the line, and</p></item>
+            <item><p>sketch a graph of the line including the given point(s).</p></item>
+        </list>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>
+The line with slope <m>{{slope}}</m> and through the point <m>{{point}}</m>. 
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item><p>The equation for the line</p>
+                    <list>
+                    <item><p>in slope-intercept form: <m>y = {{sl_int_ans1}}</m></p></item>
+                    <item><p>in point-slope form (<em>PREFERRED</em>):
+                        <m>y = {{pty}} {{ans_sign1}} {{slope}} \left( {{deltax}} \right)</m></p></item>
+                    </list>
+                </item>
+                <item>
+                    <p>The graph of the line:</p>
+                    <p><image
+                            source="assets/PBL1/generated/{{__seed__}}/Show1.png"
+                            description="a red line with given slope through given blue point"
+                        />
+                    </p>
+                    <p>Check the scale on the <m>x</m> and <m>y</m> 
+                    axes to verify the slope is correct.
+                    </p>
+                </item>
+            </list>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+The line through the points <m>({{x0}},{{y0}})</m> and <m>({{x1}},{{y1}})</m>.
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item><p>The equation for the line</p>
+                    <list>
+                    <item><p>in slope-intercept form: <m>y = {{sl_int_ans2}}</m></p></item>
+                    <item><p>in point-slope form (<em>PREFERRED</em>):</p>
+                        <p><m>y = {{y0}} {{ans_sign2}} {{m}} \left( {{deltax0}} \right)</m>, or</p>
+                        <p><m>y = {{y1}} {{ans_sign2}} {{m}} \left( {{deltax1}} \right)</m></p></item>
+                    </list>
+                </item>
+                <item>
+                    <p>The graph of the line:</p>
+                    <p><image
+                            source="assets/PBL1/generated/{{__seed__}}/Show2.png"
+                            description="a red line through the two given blue points"
+                        />
+                    </p>
+                    <p>Check the scale on the <m>x</m> and <m>y</m> 
+                    axes to verify the slope is correct.
+                    </p>
+                </item>
+            </list>
+        </outtro>
+    </knowl>
+</knowl>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>
+Without using a calculator, evaluate 
+<m mode = "display"> \left({{base1}}\right)^{ {{powernum1}}/{{powerden1}} }.</m>
+Explain the roles played by the numerator, denominator, and sign (positive or negative) in the exponent.
+            </p>
+            <p>
+Your answer should either be an integer or be a fraction of the form <m>\frac{1}{n}</m>. 
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display">{{answer1}}</m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+Simplify the following expression to one of the forms <m>x^n</m>
+or <m>\displaystyle \frac{1}{x^n}</m> for some postive integer <m>n</m>.
+<m mode="display"> \left({{base2}}\right)^{ {{powernum2}}/{{powerden2}} } </m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode = "display">{{answer2}}</m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+Simplify the following expression to one of the following four forms 
+(with <m>A</m> and <m>n</m> some positive integers):
+<m>A x^n</m>, or  
+<m>\displaystyle \frac{A}{x^n}</m>, or
+<m>\displaystyle \frac{1}{A} x^n</m>, or
+<m>\displaystyle \frac{1}{A x^n}</m>.
+<m mode = "display"> \left({{base3}}\right)^{ {{powernum3}}/{{powerden3}} } </m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display">{{answer3}}</m>
+            </p>
+        </outtro>
+    </knowl>    
+</knowl>

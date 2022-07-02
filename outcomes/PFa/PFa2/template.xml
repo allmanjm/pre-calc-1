@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Factor the following expression into irreducible factors.
+<m mode="display"> 
+{{c0}}\,{{mono}}\,\left({{binom}}\right)^{ {{binomP}} } \, \left[ {{trans}} \right]^{ 2 } +
+    {{c1}}\,{{mono_s}}\,\left({{binom}}\right)^{ {{binomP_s}} }\,{{trans}}
+</m>
+        </p>
+    </content>
+    <outtro>
+        <p>
+<m mode="display">{{factored}}</m>
+Warning: Your answer may be correct but still differ slightly from the displayed 
+answer in notation and/or ordering of factors. If so, you should be able to verify 
+and explain how your answer is equivalent to the displayed one.
+        </p>
+    </outtro>
+</knowl>

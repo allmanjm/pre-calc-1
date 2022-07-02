@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>
+In each of the following, determine if the described cancellations are correct.
+If there are errors, find and explain any mistakes.
+            </p>
+            <list>
+                <item>
+                <p>
+                    <m>
+\displaystyle  \frac{ {{A}} + {{B}} }{ {{A}} }:
+                    </m>
+Cancel the <m> {{A}} </m> in the numerator and denominator to get 
+<m>\displaystyle \frac{ {{A}} + {{B}} }{ {{A}} } = {{B}}</m>.
+                </p>
+                </item>
+                <item>
+                <p>
+                    <m>
+\displaystyle  \frac{ {{A}} + {{B}} }{ {{A}} } :
+                    </m>
+Cancel the <m> {{A}} </m> in the numerator and denominator to get 
+<m>\displaystyle \frac{ {{A}} + {{B}} }{ {{A}} } = 1 + {{B}} </m>.
+                </p>
+                </item>
+                <item>
+                <p>
+                    <m>
+\displaystyle  \frac{ {{A}} + {{B}} }{ ({{A}})^{{d}} } :
+                    </m>
+Cancel one factor of <m> {{A}} </m> in the numerator and denominator to get 
+<m> \displaystyle \frac{ {{A}} + {{B}} }{ ({{A}})^{{d}} } = \frac{1 + {{B}}}{ ({{A}})^{ {{dd}} } } </m>.
+                </p>
+                </item>
+            </list>
+        </content>
+        <outtro>
+            <p>
+Explain why all items are incorrect.       
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+Simplify the following expression until it is a 
+polynomial (no denominators!) in the variables 
+<m>x</m> and <m>h</m>. 
+<m mode="display"> \frac{x^{{n}} - \left( {{top}} \right)}{h}</m>
+            </p>
+        </content>
+        <outtro>
+            <p>
+<m mode="display">{{ans}}</m>
+            </p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <intro>
+            <p>
+Simplify each of the following expressions until they have the form
+<m mode="display">\frac{p(x)}{ ({{irred}})^m }</m>
+for some polynomial <m>p(x)</m> and a minimal value of <m>m</m>.
+            </p>
+        </intro>
+        <knowl>
+            <content>
+                <p>
+<m mode="display"> \frac{({{irred}})({{2ax}})-({{ax^2}})({{2x+b}})}{({{irred}})^{ {{p1}} }}</m>
+                </p>
+            </content>
+            <outtro>
+                <p>
+<m mode="display">\frac{ {{fdn}} }{ ({{irred}})^{ {{p1}} } }</m>
+So <m>p(x) = {{fdn}}</m> and <m>m = {{p1}} </m>.
+                </p>
+            </outtro>
+        </knowl>
+
+        <knowl>
+            <content>
+                <p>
+<m mode="display"> \frac{({{irred}})^2({{funny}})-({{fdn}})\left[ 2({{irred}})({{2x+b}}) \right] }{({{irred}})^{ {{p2}} }}</m>
+                </p>
+            </content>
+            <outtro>
+                <p>
+<m mode="display">\frac{ {{sdn}} }{ ({{irred}})^{ {{p3}} } }</m>
+So <m>p(x) = {{sdn}}</m> and <m>m = {{p3}} </m>.
+                </p>
+            </outtro>
+        </knowl>
+    </knowl>
+
+    
+   
+</knowl>

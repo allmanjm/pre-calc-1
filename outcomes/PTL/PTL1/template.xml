@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+    <content>
+        <p>
+In the expressions listed below, correctly identify whether the 
+<em>top level operation</em>
+is a SUM, DIFFERENCE, PRODUCT, QUOTIENT, or COMPOSITION.
+        </p>
+        <list>
+            <item><p><m> {{prompt11}} </m></p></item>
+            <item><p><m> {{prompt12}} </m></p></item>
+            <item><p><m> {{prompt13}} </m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <list>
+            <item><p>{{answer11}} </p></item>
+            <item><p>{{answer12}} </p></item>
+            <item><p>{{answer13}} </p></item>
+        </list>
+    </outtro>
+    </knowl>
+    <knowl>
+    <content>
+        <p>
+In the expressions listed below, correctly identify whether the 
+<em>top level operation</em>
+is a SUM, PRODUCT, or COMPOSITION. 
+If the expression is a SUM; identify the TERMS.
+If the expression is a PRODUCT; identify the FACTORS.
+If the expression is a COMPOSITION; identify the INSIDE and OUTSIDE.
+        </p>
+        <list>
+            <item><p><m> {{prompt21}} </m></p></item>
+            <item><p><m> {{prompt22}} </m></p></item>
+            <item><p><m> {{prompt23}} </m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <list>
+            <item><p>{{answer21}} <m> {{part211}} </m> and <m> {{part212}} </m></p></item>
+            <item><p>{{answer22}} <m> {{part221}} </m> and <m> {{part222}} </m></p></item>
+            <item><p>{{answer23}} <m> {{part231}} </m> and <m> {{part232}} </m></p></item>
+        </list>
+    </outtro>
+    </knowl>
+</knowl>

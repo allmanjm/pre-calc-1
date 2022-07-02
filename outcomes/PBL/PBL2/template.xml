@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <list>
+                <item><p>Write an equation (in <em>standard form</em>), and</p></item>
+                <item><p>sketch a picture</p></item>
+            </list>
+            <p>
+for the circle with 
+center <m>{{center}}</m> and 
+radius <m> {{radius}} </m>.
+            </p>
+        </content>
+        <outtro>
+            <list>
+                <item>
+                <p>
+<m>\displaystyle \left({{DeltaX}}\right)^2 + \left({{DeltaY}}\right)^2 = {{radius^2}}</m>
+                </p>
+                </item>
+                <item>
+                <p>The image of the circle:</p>
+<p><image
+    source="assets/PBL2/generated/{{__seed__}}/Show1.png"
+    description="a red circle with given radius and blue center point"
+/></p>
+                <p>Check the scale on the <m>x</m> and <m>y</m>
+                axes to verify the center and radius are correct.</p>
+                </item>
+            </list>
+        </outtro>
+    </knowl>
+
+    <knowl>
+        <content>
+            <p>
+For the circle depicted below, write equations which define
+            </p>
+            <list>
+                <item><p>the entire circle (in <em>standard form</em>);</p></item>
+                <item><p>only the {{half}} half of the circle in the form
+                    <m>y = f(x)</m> for some function <m>f(x)</m>.</p></item>
+            </list>
+            <p>
+(Assume that the coordinates of the center and 
+the length of the radius are all integer values.)
+            </p>
+<p><image
+    source="assets/PBL2/generated/{{__seed__}}/Show2.png"
+    description="a red circle with a blue center point"
+/></p>            
+        </content>
+        <outtro>
+            <list>
+                <item>
+                    <p>
+<m> \displaystyle \left( {{dx}} \right)^2 + \left( {{dy}} \right)^2 = {{rsq}} </m>
+                    </p>
+                </item>
+                <item>
+                    <p>
+<m> \displaystyle y = {{yc}}  {{pm}}  \sqrt{ {{rsq}} - \left( {{dx}} \right)^2 } </m>;
+i.e., <m> f(x) = {{yc}}  {{pm}}  \sqrt{ {{rsq}} - \left( {{dx}} \right)^2 } </m>
+                    </p>
+                </item>
+            </list>
+        </outtro>
+    </knowl>
+</knowl>
