@@ -34,7 +34,7 @@ I can do arithmetic with rational exponents.
             <path>outcomes/PFa/PFa1</path>
             <description>
 I can factor quadratic expressions over the rational numbers. 
-Factoring means "turning a sum and/or difference into a product".
+**Factor** means: *turn a sum and/or difference into a product*.
             </description>
         </outcome>
         <outcome>
@@ -43,7 +43,7 @@ Factoring means "turning a sum and/or difference into a product".
             <path>outcomes/PFa/PFa2</path>
             <description>
 I can factor out common terms from a sum to obtain a product of irreducible factors. 
-Factoring means "turning a sum and/or difference into a product".
+**Factor** means: *turn a sum/difference into a product*.
             </description>
         </outcome>
         <outcome>
@@ -52,7 +52,7 @@ Factoring means "turning a sum and/or difference into a product".
             <path>outcomes/PEx/PEx1</path>
             <description>
 I can use FOIL or Pascal's Triangle to expand binomials raised to whole number powers.
-Expanding means "turning a product/quotient into a sum/difference".
+**Expand** means: *turn a product into a sum/difference*.
             </description>
         </outcome>
         <outcome>
@@ -62,7 +62,7 @@ Expanding means "turning a product/quotient into a sum/difference".
             <description>
 I can expand products with factors beyond binomials; e.g., 
 products in which at least one of the factors is a sum of three or more terms.
-Expanding means "turning a product/quotient into a sum/difference".
+**Expand** means: *turn a product into a sum/difference*.
             </description>
         </outcome>
         <outcome>
@@ -71,8 +71,8 @@ Expanding means "turning a product/quotient into a sum/difference".
             <path>outcomes/PCa/PCa1</path>
             <description>
 I can correctly identify and perform additive and/or multiplicative cancellations 
-(additive means the canceled terms are replaced with “plus 0”; 
-multiplicative means the canceled factors are replaced with “times 1”).
+(**additive** means the canceled terms are replaced with “plus 0”; 
+**multiplicative** means the canceled factors are replaced with “times 1”).
             </description>
         </outcome>
         <outcome>
