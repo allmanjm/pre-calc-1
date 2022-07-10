@@ -23,5 +23,9 @@ for the following function.
                         /> </p>
                 </item>
         </list>
+        <p> 
+Warning: <m>x=0</m> appears as an unlabeled 
+tick mark in the displayed picture.        
+        </p>
     </outtro>
 </knowl>

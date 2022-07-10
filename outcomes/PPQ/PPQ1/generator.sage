@@ -58,7 +58,7 @@ class Generator(BaseGenerator):
         C = randrange(1,5);
         B = randrange(0,floor(sqrt(4*C)));
         extra = x^2 + B*x + C; #another superfluous irred. quad.
-        pq = sample([2,3,5,7,11],2);
+        pq = sample([3,5,7,11,13],2);
         rr = choice([-1,1])*pq[0]/pq[1];
 
         g = x^rr*num_fact/denom_fact;

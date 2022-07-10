@@ -26,7 +26,7 @@ class Generator(BaseGenerator):
         #stuff for third item
         coeffs5 = [randrange(1,10)*choice([-1,1]) for i in range(2)];
         coeffs6 = [randrange(1,10)*choice([-1,1]) for i in range(3)];
-        powers5 = sample(range(0,5),2);
+        powers5 = sample(range(-4,5),2);
         powers6 = sample(range(1,5),3);
         trans = choice([sin(x),cos(x),exp(x)]);
         factor5 = coeffs5[0]*x^(powers5[0]) + coeffs5[1]*x^(powers5[1]);
