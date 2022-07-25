@@ -1,10 +1,15 @@
 # PreCalcSkills1
 
-This is a bank of randomized exercises for the CheckIt platform. The exercises align with 14 learning outcomes for specific precalculus skills which, in the opinion of the bank's author, are "must have" skills for doing differential single\-variable calculus.
+This is a bank of randomized exercises for the CheckIt platform. The exercises align with 14 learning outcomes for specific precalculus skills which, in the opinion of the bank's author, are "must have" skills for doing differential single\-variable calculus (with algebraic functions).
 
-The exercises were developed originally for the first semester of a year-long "Calculus I with Integrated Precalculus" sequence at Wake Forest University in Winston-Salem, NC [<https://math.wfu.edu/>].
+The exercises were developed originally for the first semester of a year-long "Calculus I with Integrated Precalculus" sequence at Wake Forest University in Winston-Salem, NC [<https://math.wfu.edu/>]. 
 
-> PreCalcSkills1 is a project of Justin Allman. 
+The learning outcomes in this Precalculus Skills bank directly support the learning outcomes in the Differential Calculus of Algebraic Functions bank found at the links below:
+
+ - CheckIt page: <https://allmanjm.github.io/diff-calc-alg/>. 
+ - GitHub repository of associated files: <https://github.com/allmanjm/diff-calc-alg/>. 
+
+> PreCalcSkills1 is a project of Justin Allman. \
 > Learn more about CheckIt at <https://github.com/StevenClontz/checkit>.
 
 ## Learning Outcomes for PreCalcSkills1
@@ -49,7 +54,7 @@ The exercises were developed originally for the first semester of a year-long "C
 
 #### Definitions of italicized terms in learning outcomes
 
-1. The *top level operation* of an algebraic expression is the final operation one would perform if evaluating the expression in **Reverse Polish Notation** [https://en.wikipedia.org/wiki/Reverse_Polish_notation]. 
+1. The _top level operation_ of an algebraic expression is the final operation one would perform if evaluating the expression in **Reverse Polish Notation** \[[https://en.wikipedia.org/wiki/Reverse\_Polish\_notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)\]. This may not be the best way to explain the idea to students, but it's the definition I've used to build the exercises.
 
 > Students need to recognize top level operations in order to correctly apply differentiation rules later in calculus. In particular, I noticed that many of my students had difficulty recognizing the difference between products and compositions, especially those involving transcendental functions.
 
