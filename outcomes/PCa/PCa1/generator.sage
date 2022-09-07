@@ -14,7 +14,7 @@ class Generator(BaseGenerator):
         #stuff for second item
         n = choice([2,3,4]);
         top = sum(binomial(n,i)*x^i*h^(n-i) for i in [0..n]);
-        ans = sum(binomial(n,i)*x^i*h^(n-i-1) for i in range(n));
+        ans = (-1)*sum(binomial(n,i)*x^i*h^(n-i-1) for i in range(n));
         
 
 
