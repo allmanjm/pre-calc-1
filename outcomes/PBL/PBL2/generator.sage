@@ -55,7 +55,7 @@ class Generator(BaseGenerator):
             ycompmin = 2*fcomp_minmax;
             ycompmax = 0;
 
-        comp_tuple = (fcomp,0,"",xcompmin,xcompmax,ycompmin,ycompmax);
+        comp_tuple = (fcomp,0,"~",xcompmin,xcompmax,ycompmin,ycompmax);
 
         mix = sample([real_tuple,comp_tuple],2);
         f1_tuple = mix[0];

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
-        <p> Determine whether each quadtratic function below has <m>0</m>, <m>1</m>,
+        <p> Determine whether each quadratic function below has <m>0</m>, <m>1</m>,
         or <m>2</m> real roots, and (in the case of 1 or 2 real roots) find them.
         For each quadratic, explain your answers with both</p>
             <list>
@@ -14,11 +14,13 @@
             <p><m mode="display">f(x) = {{f1}} </m> </p>
         </content>
         <outtro>
-            <p><m>{{f1}}</m> has <m>{{numroots1}}</m> real root(s): {{roots1}}</p>
-            <p>The graph <m>y=f(x)</m> is</p>
+            <list>
+            <item><p><m>{{numroots1}}</m> real root(s): <m>{{roots1}}</m></p></item>
+            <item><p>Graph <m>y=f(x)</m>:</p></item>
+            </list>
             <p><image
                 source="assets/PBL2/generated/{{__seed__}}/Show1.png"
-                description="a blue parabola"
+                description="a blue parabola with {{numroots1}} real roots"
             /></p>
         </outtro>
     </knowl>
@@ -28,11 +30,13 @@
             <p><m mode="display">g(x) = {{f2}} </m> </p>
         </content>
         <outtro>
-            <p><m>{{f2}}</m> has <m>{{numroots2}}</m> real root(s): {{roots2}}</p>
-            <p>The graph <m>y=g(x)</m> is</p>
+            <list>
+            <item><p><m>{{numroots2}}</m> real root(s): <m>{{roots2}}</m></p></item>
+            <item><p>Graph <m>y=g(x)</m>:</p></item>
+            </list>
             <p><image
                 source="assets/PBL2/generated/{{__seed__}}/Show2.png"
-                description="a blue parabola"
+                description="a blue parabola with {{numroots2}} real roots"
             /></p>
         </outtro>
     </knowl>
