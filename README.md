@@ -57,8 +57,8 @@ The learning outcomes in this Precalculus Skills bank directly support the learn
 2. A *sign chart* for a function $f(x)$ of one variable, which is continuous on its domain, is a number line decorated with 
 
  - tickmarks at each isolated zero and pole;
- - "$+$" signs decorating the intervals (between tickmarks) where $f(x)>0$;
- - "$-$" signs decorating the intervals (between tickmarks) where $f(x)<0$.
+ - $+$ signs decorating the intervals (between tickmarks) where $f(x)>0$;
+ - $-$ signs decorating the intervals (between tickmarks) where $f(x)<0$.
 
-> Typically, students learn to make sign charts for first and second derivatives so they can determine where functions are increasing/decreasing or concave up/down. This is a good enough reason to include their construction as a learning objective. But, sign charts are also useful in their own right; they can help students decide when the graph of a function is above or below the $x$-axis, help them sort out limits where the answer is "$\pm \infty$" OR "does not exist", and are generally a good way to solve inequalities!
+> Typically, students learn to make sign charts for first and second derivatives so they can determine where functions are increasing/decreasing or concave up/down. This is a good enough reason to include their construction as a learning objective. But, sign charts are also useful in their own right; they can help students decide when the graph of a function is above or below the $x$-axis, help them sort out limits where the answer is $\pm \infty$ OR "does not exist", and are generally a good way to solve inequalities!
 
