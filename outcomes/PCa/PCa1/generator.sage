@@ -4,13 +4,6 @@ class Generator(BaseGenerator):
         x,h = var('x,h')
 
 
-        #stuff for first item
-        terms = sample([cos(x),sin(x),tan(x),log(x),exp(x),x],2);
-        A = terms[0];
-        B = terms[1];
-        d = randrange(2,6);
-        dd = d-1;
-
         #stuff for second item
         n = choice([2,3,4]);
         top = sum(binomial(n,i)*x^i*h^(n-i) for i in [0..n]);
@@ -34,11 +27,6 @@ class Generator(BaseGenerator):
 
 
         return {
-            "A": A,
-            "B": B,
-            "d": d,
-            "dd": dd,
-            
             "n": n,
             "top": top,
             "ans": ans,

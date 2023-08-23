@@ -107,24 +107,14 @@ a line determined either by
             <slug>PBL2</slug>
             <path>outcomes/PBL/PBL2</path>
             <description>
-I can write an equation for a circle with a given center and radius. 
-Conversely, I can identify the center and radius from an
-equation which defines a circle.
+I can determine when a quadratic expression has 0, 1, or 2 real roots using both
+algebra and graphing.
             </description>
         </outcome>
         <outcome>
-            <title>Synthesis of skills and techniques 1</title>
-            <slug>PSy1</slug>
-            <path>outcomes/PSy/PSy1</path>
-            <description>
-I can manipulate expressions and solve equations 
-by successively performing multiple algebraic steps.
-            </description>
-        </outcome>
-        <outcome>
-            <title>Synthesis of skills and techniques 2</title>
-            <slug>PSy2</slug>
-            <path>outcomes/PSy/PSy2</path>
+            <title>Basic Library of functions, equations, graphs/sketches 3</title>
+            <slug>PBL3</slug>
+            <path>outcomes/PBL/PBL3</path>
             <description>
 I can determine the domain of an algebraic function.
             </description>

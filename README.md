@@ -45,12 +45,8 @@ The learning outcomes in this Precalculus Skills bank directly support the learn
 ###### PBL. Basic library of functions, equations, and graphs/sketches.
 
  - PBL1. I can write an equation and sketch a graph for a line determined either by (1) two points, or (2) one point and a slope.
- - PBL2. I can write equation(s) defining a circle with a given center and radius, and I can identify the center and radius from an equation which defines a circle.
-
-###### PSy. Synthesis of skills and techniques.
-
- - PSy1. I can manipulate expressions and solve equations by successively performing multiple algebraic steps.
- - PSy2. I can determine the domain of an algebraic function.
+ - PBL2. I can determine when a quadratic expression has 0, 1, or 2 real roots using both algebra and graphing.
+ - PBL3. I can determine the domain of an algebraic function.
 
 #### Definitions of italicized terms in learning outcomes
 

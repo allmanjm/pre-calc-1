@@ -1,70 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p> Determine whether each quadtratic function below has <m>0</m>, <m>1</m>,
+        or <m>2</m> real roots, and (in the case of 1 or 2 real roots) find them.
+        For each quadratic, explain your answers with both</p>
+            <list>
+                <item><p>algebra and/or computations, and</p></item>
+                <item><p>a graph of the given function.</p></item>
+            </list>
+    </intro>
     <knowl>
         <content>
-            <list>
-                <item><p>Write an equation (in <em>standard form</em>), and</p></item>
-                <item><p>sketch a picture</p></item>
-            </list>
-            <p>
-for the circle with 
-center <m>{{center}}</m> and 
-radius <m> {{radius}} </m>.
-            </p>
+            <p><m mode="display">f(x) = {{f1}} </m> </p>
         </content>
         <outtro>
-            <list>
-                <item>
-                <p>
-<m>\displaystyle \left({{DeltaX}}\right)^2 + \left({{DeltaY}}\right)^2 = {{radius^2}}</m>
-                </p>
-                </item>
-                <item>
-                <p>The image of the circle:</p>
-<p><image
-    source="assets/PBL2/generated/{{__seed__}}/Show1.png"
-    description="a red circle with given radius and blue center point"
-/></p>
-                <p>Check the scale on the <m>x</m> and <m>y</m>
-                axes to verify the center and radius are correct.</p>
-                </item>
-            </list>
+            <p><m>{{f1}}</m> has <m>{{numroots1}}</m> real root(s): {{roots1}}</p>
+            <p>The graph <m>y=f(x)</m> is</p>
+            <p><image
+                source="assets/PBL2/generated/{{__seed__}}/Show1.png"
+                description="a blue parabola"
+            /></p>
         </outtro>
     </knowl>
 
     <knowl>
         <content>
-            <p>
-For the circle depicted below, write equations which define
-            </p>
-            <list>
-                <item><p>the entire circle (in <em>standard form</em>);</p></item>
-                <item><p>only the {{half}} half of the circle in the form
-                    <m>y = f(x)</m> for some function <m>f(x)</m>.</p></item>
-            </list>
-            <p>
-(Assume that the coordinates of the center and 
-the length of the radius are all integer values.)
-            </p>
-<p><image
-    source="assets/PBL2/generated/{{__seed__}}/Show2.png"
-    description="a red circle with a blue center point"
-/></p>            
+            <p><m mode="display">g(x) = {{f2}} </m> </p>
         </content>
         <outtro>
-            <list>
-                <item>
-                    <p>
-<m> \displaystyle \left( {{dx}} \right)^2 + \left( {{dy}} \right)^2 = {{rsq}} </m>
-                    </p>
-                </item>
-                <item>
-                    <p>
-<m> \displaystyle y = {{yc}}  {{pm}}  \sqrt{ {{rsq}} - \left( {{dx}} \right)^2 } </m>;
-i.e., <m> f(x) = {{yc}}  {{pm}}  \sqrt{ {{rsq}} - \left( {{dx}} \right)^2 } </m>
-                    </p>
-                </item>
-            </list>
+            <p><m>{{f2}}</m> has <m>{{numroots2}}</m> real root(s): {{roots2}}</p>
+            <p>The graph <m>y=g(x)</m> is</p>
+            <p><image
+                source="assets/PBL2/generated/{{__seed__}}/Show2.png"
+                description="a blue parabola"
+            /></p>
         </outtro>
     </knowl>
 </knowl>
