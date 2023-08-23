@@ -1,6 +1,6 @@
 # PreCalcSkills1
 
-This is a bank of randomized exercises for the CheckIt platform. The exercises align with 14 learning outcomes for specific precalculus skills which, in the opinion of the bank's author, are "must have" skills for doing differential single\-variable calculus (with algebraic functions).
+This is a bank of randomized exercises for the CheckIt platform. The exercises align with learning outcomes for specific precalculus skills which, in the opinion of the bank's author, are "must have" skills for doing differential single\-variable calculus (with algebraic functions).
 
 The exercises were developed originally for the first semester of a year-long "Calculus I with Integrated Precalculus" sequence at Wake Forest University in Winston-Salem, NC [<https://math.wfu.edu/>]. 
 
