@@ -9,7 +9,7 @@ class Generator(BaseGenerator):
         #stuff for second item
         x=var('x');
         qq=randrange(2,13);
-        pp=randrange(1,21)*choice([-1,1]);
+        pp=choice([randrange(1,qq),randrange(qq+1,21)])*choice([-1,1])
         n=qq*choice([2,3,4,5]);
 
         #stuff for third item
