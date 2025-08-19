@@ -5,7 +5,7 @@
 For each of the following, determine the values of <m>x</m> for which the given expression has a:
         </p>
         <list>
-            <item><p> zero (aka an <m>x<m>-intercept)</p></item>
+            <item><p> zero (aka an <m>x</m>-intercept)</p></item>
             <item><p> pole (aka a vertical asymptote)</p></item>
         </list>
     </intro>
@@ -27,7 +27,7 @@ For each of the following, determine the values of <m>x</m> for which the given 
                 <m>{{zero4}}</m> or 
                 <m>{{zero5}}</m> 
                 </p></item>
-                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is: N/A</p></item>
+                <item><p>pole when <m>x</m> is: N/A</p></item>
             </list>
         </outtro>
     </knowl>
@@ -42,8 +42,8 @@ For each of the following, determine the values of <m>x</m> for which the given 
         </content>
         <outtro>
             <list>
-                <item><p>zero when <m>x</m> is {{zeros_answer}}</p></item>
-                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is {{und_answer}}</p></item>
+                <item><p>zero when <m>x</m> is: {{zeros_answer}}</p></item>
+                <item><p>pole when <m>x</m> is: {{und_answer}}</p></item>
             </list>
         </outtro>
     </knowl>
@@ -58,8 +58,8 @@ For each of the following, determine the values of <m>x</m> for which the given 
         </content>
         <outtro>
             <list>
-                <item><p>zero when <m>x</m> is {{zz_answer}}</p></item>
-                <item><p>undefined (<m>\pm \infty</m>) when <m>x</m> is {{uu_answer}}</p></item>
+                <item><p>zero when <m>x</m> is: {{zz_answer}}</p></item>
+                <item><p>pole when <m>x</m> is: {{uu_answer}}</p></item>
             </list>
         </outtro>
     </knowl>

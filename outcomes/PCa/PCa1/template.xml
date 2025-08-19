@@ -21,7 +21,7 @@ polynomial (no denominators!) in the variables
             <p>
 Simplify each of the following expressions until they have the form
 <m mode="display">\frac{p(x)}{ ({{irred}})^m }</m>
-for some polynomial <m>p(x)</m> and a minimal value of <m>m</m>.
+for some polynomial <m>p(x)</m> with minimal degree and for some minimal value of <m>m</m>.
             </p>
         </intro>
         <knowl>

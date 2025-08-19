@@ -3,7 +3,7 @@ class Generator(BaseGenerator):
         #stuff for first item
         x   = var('x');
         r1   = randrange(1,12)*choice([-1,1]);
-        r2   = randrange(0,12)*choice([-1,1]);
+        r2   = randrange(1,12)*choice([-1,1]);
         factor11 = x-r1;
         factor12 = x-r2;
         poly1 = expand((x-r1)*(x-r2));

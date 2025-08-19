@@ -2,7 +2,13 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
         <p>
-Factor the following expression into irreducible factors.
+For the following expression,
+        </p>
+<list>
+    <item> <p>identify the greatest common factor (aka GCF), and</p></item>
+    <item> <p>use the GCF to factor the expression into irreducible factors.</p></item>
+</list>
+        <p>
 <m mode="display"> 
 {{c0}}\,{{mono}}\,\left({{binom}}\right)^{ {{binomP}} } \, \left[ {{trans}} \right]^{ 2 } +
     {{c1}}\,{{mono_s}}\,\left({{binom}}\right)^{ {{binomP_s}} }\,{{trans}}
@@ -11,8 +17,8 @@ Prove and demonstrate that your answer is correct by using the distributive prop
         </p>
     </content>
     <outtro>
-        <p>
-<m mode="display">{{factored}}</m>
+        <p>A correct factored expression is
+<m mode="display">{{factored}}.</m>
 Warning: Your answer may be correct but still differ slightly from the displayed 
 answer in notation and/or ordering of factors. If so, you should be able to verify 
 and explain how your answer is equivalent to the displayed one.
