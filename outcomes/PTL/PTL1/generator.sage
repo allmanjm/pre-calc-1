@@ -2,7 +2,7 @@ class Generator(BaseGenerator):
     def data(self):
         
         #stuff for first item
-        x = var('x');
+        x,u = var('x,u');
         d = randrange(2,10);
         f(x) = x^d;
         g(x) = choice([sin(x),cos(x),tan(x),exp(x),sec(x),cot(x)]);
@@ -27,8 +27,8 @@ class Generator(BaseGenerator):
             [G(x)*F(x)+K(x)*G(H(x)),'SUM with TERMS:', [ K(x)*G(H(x)), G(x)*F(x)]],
             [G(H(x))*F(H(x)),'PRODUCT with FACTORS:',[G(H(x)), F(H(x))]],
             [F(K(x))+K(H(x)),'SUM with TERMS:', [F(K(x)), K(H(x))]],
-            [K(H(x)),'COMPOSITION with INSIDE and OUTSIDE:', [H(x) , K(x)]],
-            [F(G(x)),'COMPOSITION with INSIDE and OUTSIDE:', [G(x), F(x)]]
+            [K(H(x)),'COMPOSITION with INSIDE and OUTSIDE:', [H(x) , K(u)]],
+            [F(G(x)),'COMPOSITION with INSIDE and OUTSIDE:', [G(x), F(u)]]
         ];
         ss = sample(LL,3);
 

@@ -2,11 +2,11 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
         <p>
-For each of the following, determine the values of <m>x</m> for which the given expression is:
+For each of the following, determine the values of <m>x</m> for which the given expression has a:
         </p>
         <list>
-            <item><p> zero </p></item>
-            <item><p> undefined (aka <m>\pm \infty</m>) </p></item>
+            <item><p> zero (aka an <m>x<m>-intercept)</p></item>
+            <item><p> pole (aka a vertical asymptote)</p></item>
         </list>
     </intro>
     <knowl>
